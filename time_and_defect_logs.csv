@@ -1,0 +1,11 @@
+task_id,task_type,task_name,manual_time_min,ai_gen_time_min,ai_review_time_min,ai_fix_time_min,total_assisted_min,lines_gen,lines_kept,lines_mod,acceptance_rate_pct,defect_type,net_speedup
+T01,Boilerplate,FastAPI CRUD Service,45,1.5,4.0,1.0,6.5,42,39,3,92.8%,None,6.92
+T02,Boilerplate,SQL Migration Up/Down,35,1.0,3.5,0.0,4.5,28,27,1,96.4%,None,7.78
+T03,Algorithm,Sliding Window Rate Limiter,60,2.0,14.0,16.0,32.0,34,18,16,52.9%,Logic/State,1.88
+T04,Algorithm,Topological Sort & Cycles,50,1.5,8.0,12.0,21.5,38,24,14,63.1%,Edge Case,2.33
+T05,Refactoring,Payment Gateway Decoupling,55,2.5,11.0,5.0,18.5,45,34,11,75.5%,None,2.97
+T06,Refactoring,Sync to Async Callback Pipeline,65,3.0,16.0,14.0,33.0,52,25,27,48.1%,Unhandled Async Exception,1.97
+T07,Test Writing,ISO Datetime Parser & Tests,50,2.0,6.0,2.0,10.0,40,35,5,87.5%,None,5.00
+T08,Debugging,Concurrent Bank Transfer Race,40,2.0,15.0,28.0,45.0,30,6,24,20.0%,Architecture/Concurrency,0.89
+T09,Debugging,WebSocket Pool Memory Leak,60,2.0,18.0,22.0,42.0,36,13,23,36.1%,Resource Cleanup Leak,1.43
+T10,Integration,OAuth2 PKCE & State Validation,70,4.0,20.0,15.0,39.0,48,28,20,58.3%,Security/Missing State,1.79
